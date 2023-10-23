@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left Block - Black */
+.left-block {
+    background-color:black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300%;
+    padding: 20px;
+}
+
+/* Right Block - White */
+.right-block {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 250px);
+    height: 100%;
+    padding: 20px;
+}
+
+/* Designer Elements */
+.designer-element {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Publish and Preview Links */
+.publish-preview {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+}
+/* clear and save Links */
+    .bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
